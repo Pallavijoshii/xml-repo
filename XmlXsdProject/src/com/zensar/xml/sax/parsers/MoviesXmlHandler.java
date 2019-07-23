@@ -12,7 +12,7 @@ public class MoviesXmlHandler extends DefaultHandler {
 		// TODO Auto-generated method stub
 		
 		for(int i=start;i<start+length;i++) {
-			System.out.println(ch[i]);
+			System.out.print(ch[i]);
 		}
 		System.out.println();
 		
@@ -23,7 +23,7 @@ public class MoviesXmlHandler extends DefaultHandler {
 	@Override
 	public void startDocument() throws SAXException {
 		// TODO Auto-generated method stub
-		super.startDocument();
+		System.out.println("Starting...");
 	}
 
 	@Override
